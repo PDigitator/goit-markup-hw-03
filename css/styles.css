@@ -21,6 +21,33 @@ body {
   letter-spacing: 0.03em;
 }
 
+/* Reset start */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+.link {
+  text-decoration: none;
+  color: currentColor;
+}
+
+.list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  display: block;
+}
+/* Reset end */
+
 /* <!-- Шапка сайту -- >  */
 .logo {
   color: var(--rare-text-color);
@@ -28,20 +55,11 @@ body {
   font-weight: 700;
   font-size: 26px;
   line-height: calc(31 / 26);
-  text-decoration: none;
 }
 
 .logo-part {
   color: var(--accent-color);
 }
-
-.list {
-  list-style: none;
-}
-
-/* .link {
-  text-decoration: none;
-} */
 
 .site-nav .link {
   color: var(--title-text-color);
@@ -49,7 +67,6 @@ body {
   font-size: 14px;
   line-height: calc(16 / 14);
   letter-spacing: 0.02em;
-  text-decoration: none;
 }
 
 .site-nav .link:hover,
@@ -67,7 +84,6 @@ body {
   font-size: 14px;
   line-height: calc(16 / 14);
   letter-spacing: 0.02em;
-  text-decoration: none;
 }
 
 .contacts .link:hover,
@@ -170,7 +186,6 @@ body {
 
 .address .link {
   color: var(--footer-text-color);
-  text-decoration: none;
 }
 
 .address .link:hover,
@@ -220,10 +235,6 @@ body {
 .button.primary:focus {
   color: var(--secondary-text-color);
   background-color: var(--accent-color);
-}
-
-.portfolio .link {
-  text-decoration: none;
 }
 
 .portfolio .link:hover,
