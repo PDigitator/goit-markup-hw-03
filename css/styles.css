@@ -77,7 +77,6 @@ img {
 .site-nav,
 .contacts.list {
   display: flex;
-  flex-direction: row;
   align-items: center;
 }
 
@@ -175,7 +174,6 @@ img {
 
 .features.list {
   display: flex;
-  flex-direction: row;
   align-content: flex-start;
 }
 
@@ -221,7 +219,6 @@ img {
 /* Секція Чим ми займаємось */
 .works.list {
   display: flex;
-  flex-direction: row;
   align-content: flex-start;
 }
 
@@ -253,7 +250,6 @@ img {
 
 .team.list {
   display: flex;
-  flex-direction: row;
   align-content: flex-start;
 }
 
@@ -394,7 +390,6 @@ img {
 
 .portfolio-button.list {
   display: flex;
-  flex-direction: row;
   justify-content: center;
   align-content: flex-start;
   margin-bottom: 50px;
