@@ -183,9 +183,8 @@ img {
   padding-top: 94px;
   padding-bottom: 94px;
 }
-/* TODO: видалити box-sizing: border-box */
+
 .container {
-  /* box-sizing: border-box; */
   width: 1200px;
   padding-right: 15px;
   padding-left: 15px;
