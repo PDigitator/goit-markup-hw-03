@@ -1,20 +1,30 @@
 :root {
+  /* Fonts */
+  --primary-font-family: 'Roboto';
+  --logo-font-family: 'Raleway';
+
+  /* Text colors */
   --primary-text-color: #757575;
   --title-text-color: #212121;
   --secondary-text-color: #fff;
   --footer-text-color: rgba(255, 255, 255, 0.6);
   --rare-text-color: #000;
   --accent-color: #2196f3;
+
+  /* BG colors */
   --button-active-color: #188ce8;
   --primary-bgc: #fff;
   --secondary-bgc: #2f303a;
   --team-bgc: #f5f4fa;
   --header-border-color: #ececec;
   --portfolio-list-item-border-color: #eeeeee;
-  --primary-font-family: 'Roboto';
-  --logo-font-family: 'Raleway';
+
+  /* Others */
+  --indent: 30px;
+  --items: 3;
 }
 
+/* Base styles */
 body {
   color: var(--primary-text-color);
   background-color: var(--primary-bgc);
@@ -50,6 +60,17 @@ img {
   height: auto;
 }
 /* Reset end */
+
+/* Card set */
+.card-set {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--indent);
+}
+
+.card-set-item {
+  flex-basis: calc((100% - var(--indent) * (var(--items) - 1)) / var(--items));
+}
 
 /* <!-- Шапка сайту -- >  */
 .header {
@@ -397,17 +418,6 @@ img {
 
 .portfolio-button .list-item:not(:last-child) {
   margin-right: 8px;
-}
-
-.portfolio.list {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 30px;
-  flex-basis: calc((100%-60px) / 3);
-}
-
-.portfolio.list-item {
-  width: 370px;
 }
 
 .portfolio .subtitle {
