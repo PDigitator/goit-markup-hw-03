@@ -56,7 +56,6 @@ img {
   border-bottom: 1px solid var(--header-border-color);
 }
 
-/* TODO: проверить margin + padding */
 .logo {
   color: var(--rare-text-color);
   font-family: var(--logo-font-family), sans-serif;
@@ -70,8 +69,8 @@ img {
 }
 
 .header .logo {
-  padding: 30px 0;
-  margin-right: 50px;
+  padding: 24px 0;
+  margin-right: 93px;
 }
 
 .header .container,
@@ -82,19 +81,17 @@ img {
   align-items: center;
 }
 
-/* TODO: проверить margin */
 .site-nav .list-item:not(:last-child),
 .contacts .list-item:not(:last-child) {
-  margin-right: 30px;
+  margin-right: 50px;
 }
 
 .contacts.list {
   margin-left: auto;
 }
-
-/* TODO: проверить padding */
+/* ofh;qwhtco */
 .site-nav.list .link {
-  padding: 30px 0;
+  padding: 32px 0 31px 0;
 
   color: var(--title-text-color);
   font-weight: 500;
@@ -112,9 +109,8 @@ img {
   color: var(--accent-color);
 }
 
-/* TODO: проверить padding */
 .contacts .link {
-  padding: 30px 0;
+  padding: 32px 0 31px 0;
 
   color: var(--primary-text-color);
   font-weight: 500;
@@ -169,7 +165,7 @@ img {
 }
 /* TODO: видалити box-sizing: border-box */
 .container {
-  box-sizing: border-box;
+  /* box-sizing: border-box; */
   width: 1200px;
   padding-right: 15px;
   padding-left: 15px;
@@ -182,7 +178,7 @@ img {
   flex-direction: row;
   align-content: flex-start;
 }
-/* TODO: проверить margin */
+
 .features .list-item:not(:last-child) {
   margin-right: 30px;
 }
@@ -223,15 +219,12 @@ img {
 }
 
 /* Секція Чим ми займаємось */
-/* .section.works .section-title {  
-} */
-
 .works.list {
   display: flex;
   flex-direction: row;
   align-content: flex-start;
 }
-/* TODO: проверить margin */
+
 .works .list-item:not(:last-child) {
   margin-right: 30px;
 }
@@ -263,7 +256,7 @@ img {
   flex-direction: row;
   align-content: flex-start;
 }
-/* TODO: проверить margin */
+
 .team .list-item:not(:last-child) {
   margin-right: 30px;
 }
@@ -389,9 +382,8 @@ img {
   color: var(--accent-color);
 }
 
-/* TODO: проверить padding 23->16px */
 .portfolio-container {
-  padding: 19px 16px;
+  padding: 19px 23px;
   border: 1px solid var(--portfolio-list-item-border-color);
 }
 
@@ -401,22 +393,17 @@ img {
 }
 
 .portfolio-button.list {
-  margin-bottom: 50px;
-}
-
-/* TODO: проверить justify */
-.portfolio-button.list {
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-content: flex-start;
-}
-/* TODO: проверить margin */
-.portfolio-button .list-item:not(:last-child) {
-  margin-right: 30px;
+  margin-bottom: 50px;
 }
 
-/* TODO: проверить gap */
+.portfolio-button .list-item:not(:last-child) {
+  margin-right: 8px;
+}
+
 .portfolio.list {
   display: flex;
   flex-wrap: wrap;
