@@ -184,6 +184,10 @@ img {
   padding-bottom: 94px;
 }
 
+.section.features {
+  padding-bottom: 0;
+}
+
 .container {
   width: 1200px;
   padding-right: 15px;
